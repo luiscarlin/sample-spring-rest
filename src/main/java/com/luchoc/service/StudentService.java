@@ -16,4 +16,8 @@ public class StudentService {
     public Collection<Student> getAllStudents() {
         return repo.getAllStudents();
     }
+
+    public Student getStudentById(int id) {
+        return repo.getStudentById(id);
+    }
 }

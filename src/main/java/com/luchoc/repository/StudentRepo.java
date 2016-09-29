@@ -25,4 +25,8 @@ public class StudentRepo {
     public Collection<Student> getAllStudents() {
         return students.values();
     }
+
+    public Student getStudentById(int id) {
+        return students.get(id);
+    }
 }
