@@ -20,4 +20,16 @@ public class StudentService {
     public Student getStudentById(int id) {
         return repo.getStudentById(id);
     }
+
+    public void insertStudent(Student student) {
+        repo.insertStudent(student);
+    }
+
+    public void updateStudent(Student student) {
+        repo.updateStudent(student);
+    }
+
+    public void deleteStudent(int id) {
+        repo.deleteStudent(id);
+    }
 }

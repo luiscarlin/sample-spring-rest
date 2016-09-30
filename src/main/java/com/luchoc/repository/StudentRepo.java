@@ -29,4 +29,18 @@ public class StudentRepo {
     public Student getStudentById(int id) {
         return students.get(id);
     }
+
+    public void insertStudent(Student student) {
+        students.put(student.getId(), student);
+    }
+
+    public void updateStudent(Student student) {
+        Student toUpdate = students.get(student.getId());
+        toUpdate.setName(student.getName());
+        toUpdate.setCourse(student.getCourse());
+    }
+
+    public void deleteStudent(int id) {
+        students.remove(id);
+    }
 }

@@ -2,14 +2,16 @@ package com.luchoc.domain;
 
 
 public class Student {
-    private Integer id;
+    private int id;
     private String name;
     private String course;
 
-    public Student(Integer id, String name, String course) {
+    public Student(int id, String name, String course) {
         this.id = id;
         this.name = name;
         this.course = course;
+    }
+    public Student() {
     }
 
     public String getCourse() {
@@ -20,7 +22,7 @@ public class Student {
         this.course = course;
     }
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
