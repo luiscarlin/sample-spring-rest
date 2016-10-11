@@ -1,2 +1,4 @@
-# spring-rest-api
-App to practice rest api using Spring.
+# Spring Practice
+
+Various small programs to practice Spring
+
