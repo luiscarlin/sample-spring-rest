@@ -1,4 +1,3 @@
-# Spring Practice
+# Sample Spring Rest
 
-Various small programs to practice Spring
 
